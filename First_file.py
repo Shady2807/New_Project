@@ -16,7 +16,6 @@ driver1 = TouchActions()
 driver1.double_tap("packageDirectFlight-hp-package")
 time.sleep(2)
 driver.find_element_by_id("search-button-hp-package").click()
-driver.title()
 driver.quit()
 
 
